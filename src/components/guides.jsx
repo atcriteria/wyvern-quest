@@ -1,24 +1,28 @@
-import { useState } from "react"
-import { GUIDES } from "../util/guides";
-import Guide from "./guide";
+import { GUILD_QUEST_LINKS, DUNGEON_LINKS, QUEST_LINKS } from "../util/guides";
+import GuideLink from "./guideLink";
 
 export default function Guides() {
-    const [guideState, setGuideState] = useState(undefined);
-
-    const handleClick = e => {
-        e.preventDefault
-        console.log(e.target.name)
-        console.log(GUIDES[e.target.name])
-        setGuideState(GUIDES[e.target.name])
-    }
     return (
         <section>
-            Select a guide below to view it.
-            <a name="demon-hordes" onClick={handleClick}>Demon Hordes</a>
+            <h2>Notable Guides</h2>
+            <p>The following is a collection of useful guides maintained on the <a href="https://wiki.wyvernsource.com" target="_blank" rel="noreferrer">Wyvern Wiki</a>.</p>
             <div>
-                {
-                    (guideState == undefined) ? "" : <Guide state={guideState} />
-                }
+                <h3>Quests</h3>
+                <ul>
+                    {Object.keys(QUEST_LINKS).map((key, ind) => <GuideLink key={ind} guideName={key} guide={QUEST_LINKS} />)}
+                </ul>
+            </div>
+            <div>
+                <h3>Guild Quests</h3>
+                <ul>
+                    {Object.keys(GUILD_QUEST_LINKS).map((key, ind) => <GuideLink key={ind} guideName={key} guide={GUILD_QUEST_LINKS} />)}
+                </ul>
+            </div>
+            <div>
+                <h3>Dungeons</h3>
+                <ul>
+                    {Object.keys(DUNGEON_LINKS).map((key, ind) => <GuideLink key={ind} guideName={key} guide={DUNGEON_LINKS} />)}
+                </ul>
             </div>
         </section>
     )

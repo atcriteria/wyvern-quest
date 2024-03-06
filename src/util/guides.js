@@ -15,4 +15,51 @@ const GUIDES = {
     }
 };
 
-export { GUIDES }
+const QUEST_LINKS = {
+    "Clockwork Wyvern": "https://wiki.wyvernsource.com/index.php/Clockwork_Wyvern",
+    "Cult of Aquator": "https://wiki.wyvernsource.com/index.php/Cult_of_Aquator",
+    "Curse of Elendal": "https://wiki.wyvernsource.com/index.php/Curse_of_elendal",
+    "Fairy Queen's Amethyst": "https://wiki.wyvernsource.com/index.php/Fairy_Queen%27s_Amethyst",
+    "History of Noir": "https://wiki.wyvernsource.com/index.php/History_of_Noir",
+    "Jinoir's Sapphire Ring": "https://wiki.wyvernsource.com/index.php/Jinoir%27s_Sapphire_Ring",
+    "Kiz's Sidescroller": "https://wiki.wyvernsource.com/index.php/Kiz%27s_Side_Scroller",
+    "Laboratory Debacle": "https://wiki.wyvernsource.com/index.php/Laboratory_Debacle",
+    "Macabre Olympiad": "https://wiki.wyvernsource.com/index.php/Macabre_Olympiad",
+    "Nagalinh's Dolls": "https://wiki.wyvernsource.com/index.php/NagaLinh%27s_Dolls",
+    "Odin's Missing Eye": "https://wiki.wyvernsource.com/index.php/NagaLinh%27s_Dolls",
+    "Orb of Maiye": "https://wiki.wyvernsource.com/index.php/Orb_of_Maiye",
+    "Secrets of the Sidewinder Caverns": "https://wiki.wyvernsource.com/index.php/Secrets_of_the_Sidewinder_Caverns",
+    "Spell of the Swamp Witch": "https://wiki.wyvernsource.com/index.php/Spell_of_the_Swamp_Witch",
+    "Purloined Pooch": "https://wiki.wyvernsource.com/index.php/The_Case_of_the_Purloined_Pooch",
+    "The Dark Mistress": "https://wiki.wyvernsource.com/index.php/The_Dark_Mistress",
+    "The Goose That Lays Golden Eggs": "https://wiki.wyvernsource.com/index.php/The_Goose_That_Lays_Golden_Eggs",
+    "Tower of Conundrum": "https://wiki.wyvernsource.com/index.php/Tower_of_Conundrum",
+    "Sokoban": "https://wiki.wyvernsource.com/index.php/Tower_of_Sokoban",
+    "Treasures of the Pyramids": "https://wiki.wyvernsource.com/index.php/Treasures_of_the_Pyramid",
+    "Wastelands of Bura Shan": "https://wiki.wyvernsource.com/index.php/Wastelands_of_Bura_Shaan",
+    "Westerly Forest": "https://wiki.wyvernsource.com/index.php/Westerly_Forest"
+}
+
+const GUILD_QUEST_LINKS = {
+    "Demon Hordes": "https://wiki.wyvernsource.com/index.php/Demon_Hordes",
+    "Pirate Island": "https://wiki.wyvernsource.com/index.php/Pirate_Island",
+    "Jewel of Besar": "https://wiki.wyvernsource.com/index.php/Jewel_of_Besar",
+    "Tornaum Castle": "https://wiki.wyvernsource.com/index.php/Tornaum_Castle",
+    "Ruins of Samhoc": "https://wiki.wyvernsource.com/index.php/Ruins_of_Samhoc",
+    "Mist Temple": "https://wiki.wyvernsource.com/index.php/Mist_Temple",
+    "Curse of Henteko": "https://wiki.wyvernsource.com/index.php/Curse_of_Henteko"
+}
+
+const DUNGEON_LINKS = {
+    "Ramsay's Tomb": "https://wiki.wyvernsource.com/index.php/King_Ramsay%27s_Tomb",
+    "Crypt of Ernzof": "https://wiki.wyvernsource.com/index.php/Crypt_of_Ernzof",
+    "Fae Wyston Catacombs": "https://wiki.wyvernsource.com/index.php/Fae_Wyston_Catacombs",
+    "The Moon": "https://wiki.wyvernsource.com/index.php/The_Moon",
+    "Hades": "https://wiki.wyvernsource.com/index.php/Hades",
+    "Skull Cave": "https://wiki.wyvernsource.com/index.php/Noir_Skull_Cave",
+    "Beneath Samhoc": "https://wiki.wyvernsource.com/index.php/Beneath_Samhoc",
+    "Goblin Fort": "https://wiki.wyvernsource.com/index.php/Goblin_Fort"
+}
+
+
+export { GUIDES, GUILD_QUEST_LINKS, DUNGEON_LINKS, QUEST_LINKS }
