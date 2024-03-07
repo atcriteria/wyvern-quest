@@ -4,8 +4,19 @@ body {
   color: #F9E9EC;
   margin: auto;
   width: 50%;
+
 }
 
 a {
   color: #F88DAD;
+}
+
+html {
+  /* overflow-y: hidden; */
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+html::-webkit-scrollbar {
+  display: none;
 }
