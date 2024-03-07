@@ -23,7 +23,7 @@ html::-webkit-scrollbar {
 
 .overflow-wrapper {
   width: 100%;
-  height: 50px;
+  height: 5vh;
   background-color: black;
   display: block;
   position: fixed;

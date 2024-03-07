@@ -8,6 +8,7 @@ import Upcoming from './components/upcoming.jsx'
 import { determineOverflows, validateOverflows } from './util/overflows.js'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import Stats from './components/stats.jsx'
+import About from './components/about.jsx'
 
 const handleScroll = e => {
   determineOverflows(e.target.scrollingElement);
@@ -42,6 +43,10 @@ const router = createBrowserRouter([
         {
           path: "/upcoming",
           element: <Upcoming />
+        },
+        {
+          path: "/about",
+          element: <About />
         }
       ]
   }
