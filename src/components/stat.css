@@ -1,0 +1,41 @@
+.stats-item {
+    width: 100%;
+    height: 10vh;
+    border-bottom: .5px solid rgb(14, 14, 65);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 2%;
+}
+
+.stats-item:last-child {
+    border: none;
+}
+
+.stats-item p {
+    margin: 0 1%;
+    text-align: center;
+    width: 10%;
+}
+
+.stats-item .description {
+    width: 40%;
+}
+
+.stats-item .ind {
+    max-width: 2%;
+    text-align: left;
+    margin: 0;
+}
+
+
+.stats-item img {
+    width: 32px;
+    margin: 0 2%;
+}
+
+.stats-item .time {
+    margin-right: 0;
+}

@@ -6,6 +6,7 @@ import Error from './components/error.jsx'
 import Guides from './components/guides.jsx'
 
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
+import Stats from './components/stats.jsx'
 
 const router = createBrowserRouter([
   {
@@ -21,6 +22,10 @@ const router = createBrowserRouter([
         {
           path: "/guides",
           element: <Guides />
+        },
+        {
+          path: "/leaderboard",
+          element: <Stats />
         }
       ]
   }
