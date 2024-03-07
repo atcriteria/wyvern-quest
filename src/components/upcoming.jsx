@@ -7,6 +7,14 @@ export default function Upcoming() {
             <p>Below are big-ticket items on my todo list, in no particular order.</p>
             <ul>
                 <li>
+                    <h3>
+                        Wyvern-Quest
+                    </h3>
+                    <p>
+                        Complete work on WQ, including actually styling the site so it looks halfway decent, creating back end services to host the database and api to interface with it, implement a more responsive design to make it workable on mobile.
+                    </p>
+                </li>
+                <li>
                     <h3>Boss Tear Items</h3>
                     <p>
                         New assortment of items ranging between armors, weapons, and consumables. Comes with rebalancing of previous Tear items.
