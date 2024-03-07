@@ -4,9 +4,20 @@ import App from './App.jsx'
 import Home from './components/home.jsx'
 import Error from './components/error.jsx'
 import Guides from './components/guides.jsx'
-
+import { determineOverflows, validateOverflows } from './util/overflows.js'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import Stats from './components/stats.jsx'
+
+const handleScroll = e => {
+  determineOverflows(e.target.scrollingElement);
+}
+
+const handleClick = e => {
+  validateOverflows();
+}
+
+window.addEventListener("scroll", handleScroll)
+window.addEventListener("click", handleClick)
 
 const router = createBrowserRouter([
   {

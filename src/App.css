@@ -20,3 +20,27 @@ html {
 html::-webkit-scrollbar {
   display: none;
 }
+
+.overflow-wrapper {
+  width: 100%;
+  height: 50px;
+  background-color: black;
+  display: block;
+  position: fixed;
+}
+
+#overflow-top {
+  display: none;
+  top: 0;
+  left: 0;
+  background: rgb(14, 33, 80);
+  background: linear-gradient(180deg, rgba(14, 33, 80, 1) 0%, rgba(3, 9, 24, 0) 100%);
+}
+
+#overflow-bottom {
+  display: none;
+  bottom: 0;
+  left: 0;
+  background: rgb(14, 33, 80);
+  background: linear-gradient(0deg, rgba(14, 33, 80, 1) 0%, rgba(3, 9, 24, 0) 100%);
+}
